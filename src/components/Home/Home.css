@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+  }
+  
+  .app {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #2a5298;
+    height: 100vh;
+    padding: 20px;
+    position: fixed; /* Fixe la barre latérale */
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav li {
+    margin: 15px 0;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .nav li:hover {
+    color: #00bcd4;
+  }
+  
+  .main-content {
+    margin-left: 260px; /* Espace pour la sidebar */
+    padding: 20px;
+    flex: 1; /* Prend le reste de l'espace */
+  }
+  
